@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/maps/china.js"></script>
+
+</head>
+<body>
+    <div id="372eb6e6f54443ae84ef4c8a345809a1" class="chart-container" style="width:900px; height:500px;"></div>
+    <script>
+        var chart_372eb6e6f54443ae84ef4c8a345809a1 = echarts.init(
+            document.getElementById('372eb6e6f54443ae84ef4c8a345809a1'), 'white', {renderer: 'canvas'});
+        var option_372eb6e6f54443ae84ef4c8a345809a1 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "map",
+            "name": "Covid-19 in China",
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8
+            },
+            "mapType": "china",
+            "data": [
+                {
+                    "name": "\u53f0\u6e7e\u7701",
+                    "value": 822
+                },
+                {
+                    "name": "\u4e0a\u6d77\u7701",
+                    "value": 1543
+                },
+                {
+                    "name": "\u6cb3\u5317\u7701\u7701",
+                    "value": 465
+                },
+                {
+                    "name": "\u8fbd\u5b81\u7701",
+                    "value": 374
+                },
+                {
+                    "name": "\u5317\u4eac\u7701",
+                    "value": 994
+                },
+                {
+                    "name": "\u5e7f\u4e1c\u7701",
+                    "value": 2062
+                },
+                {
+                    "name": "\u56db\u5ddd\u7701",
+                    "value": 857
+                },
+                {
+                    "name": "\u9655\u897f\u7701",
+                    "value": 521
+                },
+                {
+                    "name": "\u798f\u5efa\u7701",
+                    "value": 518
+                },
+                {
+                    "name": "\u5185\u8499\u53e4\u7701",
+                    "value": 366
+                },
+                {
+                    "name": "\u5929\u6d25\u7701",
+                    "value": 316
+                },
+                {
+                    "name": "\u4e91\u5357\u7701",
+                    "value": 230
+                },
+                {
+                    "name": "\u6d59\u6c5f\u7701",
+                    "value": 1306
+                },
+                {
+                    "name": "\u9ed1\u9f99\u6c5f\u7701",
+                    "value": 971
+                },
+                {
+                    "name": "\u6cb3\u5357\u7701",
+                    "value": 1300
+                },
+                {
+                    "name": "\u5c71\u4e1c\u7701",
+                    "value": 863
+                },
+                {
+                    "name": "\u5c71\u897f\u7701",
+                    "value": 225
+                },
+                {
+                    "name": "\u5b89\u5fbd\u7701",
+                    "value": 993
+                },
+                {
+                    "name": "\u5e7f\u897f\u7701",
+                    "value": 264
+                },
+                {
+                    "name": "\u6e56\u5357\u7701",
+                    "value": 1021
+                },
+                {
+                    "name": "\u6c5f\u82cf\u7701",
+                    "value": 685
+                },
+                {
+                    "name": "\u5409\u6797\u7701",
+                    "value": 157
+                },
+                {
+                    "name": "\u897f\u85cf\u7701",
+                    "value": 1
+                },
+                {
+                    "name": "\u5b81\u590f\u7701",
+                    "value": 75
+                },
+                {
+                    "name": "\u8d35\u5dde\u7701",
+                    "value": 147
+                },
+                {
+                    "name": "\u6e56\u5317\u7701",
+                    "value": 68149
+                },
+                {
+                    "name": "\u65b0\u7586\u7701",
+                    "value": 980
+                },
+                {
+                    "name": "\u6d77\u5357\u7701",
+                    "value": 171
+                },
+                {
+                    "name": "\u9752\u6d77\u7701",
+                    "value": 18
+                },
+                {
+                    "name": "\u6fb3\u95e8\u7701",
+                    "value": 46
+                },
+                {
+                    "name": "\u7518\u8083\u7701",
+                    "value": 182
+                },
+                {
+                    "name": "\u91cd\u5e86\u7701",
+                    "value": 590
+                },
+                {
+                    "name": "\u6c5f\u897f\u7701",
+                    "value": 935
+                }
+            ],
+            "roam": true,
+            "aspectScale": 0.75,
+            "nameProperty": "name",
+            "selectedMode": false,
+            "zoom": 1,
+            "mapValueCalculation": "sum",
+            "showLegendSymbol": true,
+            "emphasis": {}
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "Covid-19 in China"
+            ],
+            "selected": {
+                "Covid-19 in China": true
+            },
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "title": [
+        {
+            "text": "Covid-19 in China",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ],
+    "visualMap": {
+        "show": true,
+        "type": "piecewise",
+        "min": 0,
+        "max": 100,
+        "inRange": {
+            "color": [
+                "#50a3ba",
+                "#eac763",
+                "#d94e5d"
+            ]
+        },
+        "calculable": true,
+        "inverse": false,
+        "splitNumber": 5,
+        "orient": "vertical",
+        "showLabel": true,
+        "itemWidth": 20,
+        "itemHeight": 14,
+        "borderWidth": 0,
+        "pieces": [
+            {
+                "min": 1001,
+                "label": ">1000",
+                "color": "#8A0808"
+            },
+            {
+                "max": 1000,
+                "min": 500,
+                "label": "500-1000",
+                "color": "#B40404"
+            },
+            {
+                "max": 499,
+                "min": 100,
+                "label": "100-499",
+                "color": "#DF0101"
+            },
+            {
+                "max": 99,
+                "min": 10,
+                "label": "10-99",
+                "color": "#F78181"
+            },
+            {
+                "max": 9,
+                "min": 1,
+                "label": "1-9",
+                "color": "#F5A9A9"
+            },
+            {
+                "max": 0,
+                "min": 0,
+                "label": "0",
+                "color": "#FFFFFF"
+            }
+        ]
+    }
+};
+        chart_372eb6e6f54443ae84ef4c8a345809a1.setOption(option_372eb6e6f54443ae84ef4c8a345809a1);
+    </script>
+</body>
+</html>
