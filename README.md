@@ -1,7 +1,7 @@
 # CovidAndDouban
 ## There are two projects in CovidAndDouban repo
 ### CovidPics
-Collect Covid-19 data by API provided by Tencent. Used Pyechart to do data analysis.  
+Collect Covid-19 data through APIs provided by Tencent. Used Pyechart to do data analysis.  
 <br>
 <img width="532" alt="Screenshot 2023-12-27 124549" src="https://github.com/skyler-max/CovidAndDouban/assets/74391022/dc8e0138-626a-4cf4-86fb-83b65048f988">  
 
