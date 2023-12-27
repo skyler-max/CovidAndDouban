@@ -1,13 +1,5 @@
 # -*- coding: utf-8 -*-
 
-'''
-@Time    : 2021/1/6 15:53
-@Author  : 林英超
-@FileName: Table2.py
-@Software: PyCharm
-@Description: 分析评论者的城市分布情况
- 
-'''
 # 未解决问题：for循环
 
 import pandas as pd
