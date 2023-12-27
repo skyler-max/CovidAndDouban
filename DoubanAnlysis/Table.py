@@ -1,13 +1,5 @@
 # -*- coding: utf-8 -*-
 
-'''
-@Time    : 2021/1/6 14:15
-@Author  : 林英超
-@FileName: Table.py
-@Software: PyCharm
-@Description: 分析评分数量及评分与时间的关系 + 分析评论数量及评分与时间的关系
- 
-'''
 
 # 未解决问题：iloc和loc
 
